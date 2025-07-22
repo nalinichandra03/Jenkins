@@ -5,7 +5,7 @@ pipeline {
   stages {
     stage('Test') {
       steps {
-        echo "Hi I am Nalini, I am going to get job with 20LPA"
+        echo "Hi I am Nalini, I am going to get job with 20LPA""
       }
     }
   }
