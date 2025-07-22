@@ -8,7 +8,7 @@ pipeline {
         echo "Hi I am Nalini, I am going to get job with 20LPA, Helloo0000ooooo"
       }
      stage('build') {
-       steps{
+       steps {
          docker build -t ngnix:latest
     }
   }
